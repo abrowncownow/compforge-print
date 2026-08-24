@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "projectId": "COMPFORGE-PRINT",
+  "status": "preview",
+  "channel": "pbe",
+  "setId": "TFTSet18",
+  "gamePatch": "18.1-preview",
+  "sourceVersion": "set18-pbe-preview-2026-08-23-7331be101d23",
+  "generatedAt": "2026-08-24T02:29:25.359Z",
+  "counts": {
+    "champions": 2,
+    "items": 36,
+    "components": 8,
+    "builds": 6
+  },
+  "dataFreshness": "incomplete-preview",
+  "printQa": {
+    "letter": "pending",
+    "a4": "pending",
+    "inkSaver": "pending"
+  },
+  "legal": {
+    "disclaimersPresent": true,
+    "registrationStatus": "not-submitted"
+  }
+}

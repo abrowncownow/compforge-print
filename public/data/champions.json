@@ -1,0 +1,27 @@
+[
+  {
+    "id": "DA_18_Kobuko",
+    "name": "Kobuko",
+    "cost": 1,
+    "role": "APTank",
+    "traits": [
+      "Sprykin",
+      "Brawler"
+    ],
+    "portrait": "/assets/tft/champions/da-18-kobuko.png",
+    "sourceAsset": "assets/characters/tft18_kobuko/skins/base/images/tft18_kobuko_splash_tile_2.tex"
+  },
+  {
+    "id": "DA_18_Alune",
+    "name": "Alune",
+    "cost": 5,
+    "role": "APCaster",
+    "traits": [
+      "Attuned",
+      "Lunar",
+      "Spellweaver"
+    ],
+    "portrait": "/assets/tft/champions/da-18-alune.png",
+    "sourceAsset": "assets/characters/tft18_alune/skins/base/images/tft18_alune_splash_tile_15.tex"
+  }
+]

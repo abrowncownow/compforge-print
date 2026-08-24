@@ -1,0 +1,462 @@
+[
+  {
+    "id": "TFT_Item_BFSword",
+    "name": "B.F. Sword",
+    "description": "%i:scaleAD% +@AD*100@% Attack Damage",
+    "components": [],
+    "icon": "/assets/tft/items/tft-item-bfsword.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_bfsword.tex"
+  },
+  {
+    "id": "TFT_Item_RecurveBow",
+    "name": "Recurve Bow",
+    "description": "%i:scaleAS% +@AS@% Attack Speed",
+    "components": [],
+    "icon": "/assets/tft/items/tft-item-recurvebow.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_recurvebow.tex"
+  },
+  {
+    "id": "TFT_Item_NeedlesslyLargeRod",
+    "name": "Needlessly Large Rod",
+    "description": "%i:scaleAP% +@AP@ Ability Power",
+    "components": [],
+    "icon": "/assets/tft/items/tft-item-needlesslylargerod.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_needlesslylargerod.tex"
+  },
+  {
+    "id": "TFT_Item_TearOfTheGoddess",
+    "name": "Tear of the Goddess",
+    "description": "%i:TFTManaRegen% +@ManaRegen@ Mana Regen",
+    "components": [],
+    "icon": "/assets/tft/items/tft-item-tearofthegoddess.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_tearofthegoddess.tex"
+  },
+  {
+    "id": "TFT_Item_ChainVest",
+    "name": "Chain Vest",
+    "description": "%i:scaleArmor% +@Armor@ Armor",
+    "components": [],
+    "icon": "/assets/tft/items/tft-item-chainvest.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_chainvest.tex"
+  },
+  {
+    "id": "TFT_Item_NegatronCloak",
+    "name": "Negatron Cloak",
+    "description": "%i:scaleMR% +@MagicResist@ Magic Resist",
+    "components": [],
+    "icon": "/assets/tft/items/tft-item-negatroncloak.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_negatroncloak.tex"
+  },
+  {
+    "id": "TFT_Item_GiantsBelt",
+    "name": "Giant's Belt",
+    "description": "%i:scaleHealth% +@Health@ Health",
+    "components": [],
+    "icon": "/assets/tft/items/tft-item-giantsbelt.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_giantsbelt.tex"
+  },
+  {
+    "id": "TFT_Item_SparringGloves",
+    "name": "Sparring Gloves",
+    "description": "+@CritChance@ Critical Strike Chance",
+    "components": [],
+    "icon": "/assets/tft/items/tft-item-sparringgloves.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_sparringgloves.tex"
+  },
+  {
+    "id": "TFT_Item_AdaptiveHelm",
+    "name": "Adaptive Helm",
+    "description": "Gain an additional @ManaPercIncrease*100@% Mana from all sources. The holder gains an additional bonus based on their Role: Tanks and Fighters: Gain @FrontlineResists@ Armor and Magic Resistance. Other Roles: Gain @BacklineADAP@% Attack Damage and Ability Power.",
+    "components": [
+      "TFT_Item_NegatronCloak",
+      "TFT_Item_TearOfTheGoddess"
+    ],
+    "icon": "/assets/tft/items/tft-item-adaptivehelm.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.tex"
+  },
+  {
+    "id": "TFT_Item_ArchangelsStaff",
+    "name": "Archangel's Staff",
+    "description": "Combat start: Gain @APPerInterval@% Ability Power every @IntervalSeconds@ seconds in combat.",
+    "components": [
+      "TFT_Item_NeedlesslyLargeRod",
+      "TFT_Item_TearOfTheGoddess"
+    ],
+    "icon": "/assets/tft/items/tft-item-archangelsstaff.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.tex"
+  },
+  {
+    "id": "TFT_Item_Bloodthirster",
+    "name": "Bloodthirster",
+    "description": "Once per combat at @HealthThreshold@% Health, gain a @ShieldHealthPercent@% max Health Shield that lasts up to @ShieldDuration@ seconds.",
+    "components": [
+      "TFT_Item_BFSword",
+      "TFT_Item_NegatronCloak"
+    ],
+    "icon": "/assets/tft/items/tft-item-bloodthirster.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_bloodthirster.tex"
+  },
+  {
+    "id": "TFT_Item_BlueBuff",
+    "name": "Blue Buff",
+    "description": "Gain @ModifiedADAP*100@% additional Attack Damage and Ability Power from all sources.",
+    "components": [
+      "TFT_Item_TearOfTheGoddess",
+      "TFT_Item_TearOfTheGoddess"
+    ],
+    "icon": "/assets/tft/items/tft-item-bluebuff.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.tex"
+  },
+  {
+    "id": "TFT_Item_BrambleVest",
+    "name": "Bramble Vest",
+    "description": "Gain @PercentMaxHP*100@% max health. Take @AutoDamageReduction*100@% reduced damage from attacks. When struck by any attack, deal @1StarAoEDamage@ magic damage to all adjacent enemies. Cooldown: @ICD@ seconds",
+    "components": [
+      "TFT_Item_ChainVest",
+      "TFT_Item_ChainVest"
+    ],
+    "icon": "/assets/tft/items/tft-item-bramblevest.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.tex"
+  },
+  {
+    "id": "TFT_Item_Crownguard",
+    "name": "Crownguard",
+    "description": "Combat Start: Gain a @ShieldSize@% max Health Shield for @ShieldDuration@ seconds. When the Shield expires, gain @ShieldBonusAP@% Ability Power.",
+    "components": [
+      "TFT_Item_NeedlesslyLargeRod",
+      "TFT_Item_ChainVest"
+    ],
+    "icon": "/assets/tft/items/tft-item-crownguard.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_crownguard.tex"
+  },
+  {
+    "id": "TFT_Item_Deathblade",
+    "name": "Deathblade",
+    "description": "Perfect peace and calm for the holder - and all who face it. @TFTUnitProperty.:TFT_Augment_TragicalBlade_TRAKey@",
+    "components": [
+      "TFT_Item_BFSword",
+      "TFT_Item_BFSword"
+    ],
+    "icon": "/assets/tft/items/tft-item-deathblade.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_deathblade.tex"
+  },
+  {
+    "id": "TFT_Item_DragonsClaw",
+    "name": "Dragon's Claw",
+    "description": "Gain @PercentMaxHP*100@% max health. Every @HealthRegenInterval@ seconds, heal @PercentHealthDamage@% max Health.",
+    "components": [
+      "TFT_Item_NegatronCloak",
+      "TFT_Item_NegatronCloak"
+    ],
+    "icon": "/assets/tft/items/tft-item-dragonsclaw.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.tex"
+  },
+  {
+    "id": "TFT_Item_GuardianAngel",
+    "name": "Edge of Night",
+    "description": "At @HealthThreshold@% Health, briefly become untargetable, shed negative effects, and heal @MissingHealthRestore*100@% missing health.",
+    "components": [
+      "TFT_Item_BFSword",
+      "TFT_Item_ChainVest"
+    ],
+    "icon": "/assets/tft/items/tft-item-guardianangel.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.tex"
+  },
+  {
+    "id": "TFT_Item_SpectralGauntlet",
+    "name": "Evenshroud",
+    "description": "@ARReductionAmount@% Sunder enemies within @HexRange@ hexes. Gain @BonusResists@ Armor and Magic Resist for the first @BonusResistDuration@ seconds of combat. Sunder : Reduce Armor",
+    "components": [
+      "TFT_Item_NegatronCloak",
+      "TFT_Item_GiantsBelt"
+    ],
+    "icon": "/assets/tft/items/tft-item-spectralgauntlet.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.tex"
+  },
+  {
+    "id": "TFT_Item_GargoyleStoneplate",
+    "name": "Gargoyle Stoneplate",
+    "description": "Gain @ArmorPerEnemy@ Armor and @MRPerEnemy@ Magic Resist for each enemy targeting the holder.",
+    "components": [
+      "TFT_Item_ChainVest",
+      "TFT_Item_NegatronCloak"
+    ],
+    "icon": "/assets/tft/items/tft-item-gargoylestoneplate.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.tex"
+  },
+  {
+    "id": "TFT_Item_MadredsBloodrazor",
+    "name": "Giant Slayer",
+    "description": "Gain @DamageAmp*100@% additional Damage Amp against Tanks.",
+    "components": [
+      "TFT_Item_BFSword",
+      "TFT_Item_RecurveBow"
+    ],
+    "icon": "/assets/tft/items/tft-item-madredsbloodrazor.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.tex"
+  },
+  {
+    "id": "TFT_Item_GuinsoosRageblade",
+    "name": "Guinsoo's Rageblade",
+    "description": "Gain @AttackSpeedPerStack@% stacking Attack Speed every second.",
+    "components": [
+      "TFT_Item_RecurveBow",
+      "TFT_Item_NeedlesslyLargeRod"
+    ],
+    "icon": "/assets/tft/items/tft-item-guinsoosrageblade.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.tex"
+  },
+  {
+    "id": "TFT_Item_UnstableConcoction",
+    "name": "Hand Of Justice",
+    "description": "Gain 2 effects: @AD_NotStatBar*100@% Attack Damage and @AP_NotStatBar@% Ability Power. @StatOmnivamp_NotStatBar*100@% Omnivamp. While above @HealthThreshold*100@% health, double the Attack Damage and Ability Power. While below @HealthThreshold*100@% Health, double the Omnivamp.",
+    "components": [
+      "TFT_Item_TearOfTheGoddess",
+      "TFT_Item_SparringGloves"
+    ],
+    "icon": "/assets/tft/items/tft-item-unstableconcoction.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.tex"
+  },
+  {
+    "id": "TFT_Item_HextechGunblade",
+    "name": "Hextech Gunblade",
+    "description": "Heal the lowest percent Health ally for @AllyHealing*100@% of damage dealt. Ally Healing: @TFTUnitProperty.item:TFT_Tracker_Value1@",
+    "components": [
+      "TFT_Item_BFSword",
+      "TFT_Item_NeedlesslyLargeRod"
+    ],
+    "icon": "/assets/tft/items/tft-item-hextechgunblade.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.tex"
+  },
+  {
+    "id": "TFT_Item_InfinityEdge",
+    "name": "Infinity Edge",
+    "description": "Gain Precision . {{TFT_Keyword_Precision}}",
+    "components": [
+      "TFT_Item_BFSword",
+      "TFT_Item_SparringGloves"
+    ],
+    "icon": "/assets/tft/items/tft-item-infinityedge.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.tex"
+  },
+  {
+    "id": "TFT_Item_IonicSpark",
+    "name": "Ionic Spark",
+    "description": "@MRShred@% Shred enemies within @HexRange@ hexes. When enemies cast an Ability, deal magic damage equal to @ManaRatio@% of the Mana spent Shred : Reduce Magic Resist",
+    "components": [
+      "TFT_Item_NeedlesslyLargeRod",
+      "TFT_Item_NegatronCloak"
+    ],
+    "icon": "/assets/tft/items/tft-item-ionicspark.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.tex"
+  },
+  {
+    "id": "TFT_Item_JeweledGauntlet",
+    "name": "Jeweled Gauntlet",
+    "description": "Gain Precision . {{TFT_Keyword_Precision}}",
+    "components": [
+      "TFT_Item_NeedlesslyLargeRod",
+      "TFT_Item_SparringGloves"
+    ],
+    "icon": "/assets/tft/items/tft-item-jeweledgauntlet.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.tex"
+  },
+  {
+    "id": "TFT_Item_RunaansHurricane",
+    "name": "Kraken's Fury",
+    "description": "Attacks grant @ADOnAttack*100@% stacking Attack Damage, up to @MaxStacks@ attacks. After @MaxStacks@ attacks, gain @ASCapstone*100@% Attack Speed.",
+    "components": [
+      "TFT_Item_NegatronCloak",
+      "TFT_Item_RecurveBow"
+    ],
+    "icon": "/assets/tft/items/tft-item-runaanshurricane.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.tex"
+  },
+  {
+    "id": "TFT_Item_LastWhisper",
+    "name": "Last Whisper",
+    "description": "Damage from attacks and Abilities @ArmorReductionPercent@% Sunder the target for @ArmorBreakDuration@ seconds. This effect does not stack. Sunder : Reduce Armor",
+    "components": [
+      "TFT_Item_RecurveBow",
+      "TFT_Item_SparringGloves"
+    ],
+    "icon": "/assets/tft/items/tft-item-lastwhisper.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.tex"
+  },
+  {
+    "id": "TFT_Item_Morellonomicon",
+    "name": "Morellonomicon",
+    "description": "Attacks and Abilities deal @BurnPercent@% Burn and @GrievousWoundsPercent@% Wound to enemies for @BurnDuration@ seconds. Burn : Deals a percent of the target's max Health as true damage every second Wound : Reduces healing received",
+    "components": [
+      "TFT_Item_NeedlesslyLargeRod",
+      "TFT_Item_GiantsBelt"
+    ],
+    "icon": "/assets/tft/items/tft-item-morellonomicon.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.tex"
+  },
+  {
+    "id": "TFT_Item_Leviathan",
+    "name": "Nashor's Tooth",
+    "description": "Attacks grant @BaseManaOnHit@ bonus Mana, increased to @ManaOnCrit@ if they critically strike.",
+    "components": [
+      "TFT_Item_RecurveBow",
+      "TFT_Item_GiantsBelt"
+    ],
+    "icon": "/assets/tft/items/tft-item-leviathan.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_leviathan.tex"
+  },
+  {
+    "id": "TFT_Item_FrozenHeart",
+    "name": "Protector's Vow",
+    "description": "Combat Start: Gain @CombatStartMana@ Mana. At @HealthThreshold@% Health, gain @TriggerMana@ Mana and a Shield equal to @ShieldHealthPercent@% max Health.",
+    "components": [
+      "TFT_Item_TearOfTheGoddess",
+      "TFT_Item_ChainVest"
+    ],
+    "icon": "/assets/tft/items/tft-item-frozenheart.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.tex"
+  },
+  {
+    "id": "TFT_Item_Quicksilver",
+    "name": "Quicksilver",
+    "description": "Combat Start: Gain immunity to crowd control for @SpellShieldDuration@ seconds. Gain @ProcAttackSpeed*100@% stacking Attack Speed every second.",
+    "components": [
+      "TFT_Item_SparringGloves",
+      "TFT_Item_NegatronCloak"
+    ],
+    "icon": "/assets/tft/items/tft-item-quicksilver.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_quicksilver.tex"
+  },
+  {
+    "id": "TFT_Item_RabadonsDeathcap",
+    "name": "Rabadon's Deathcap",
+    "description": "This humble hat can help you make, or unmake, the world itself. @TFTUnitProperty.:TFT_Augment_DeadlierCaps_TRAKey@",
+    "components": [
+      "TFT_Item_NeedlesslyLargeRod",
+      "TFT_Item_NeedlesslyLargeRod"
+    ],
+    "icon": "/assets/tft/items/tft-item-rabadonsdeathcap.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.tex"
+  },
+  {
+    "id": "TFT_Item_RapidFireCannon",
+    "name": "Red Buff",
+    "description": "Attacks and Abilities @BurnPercent@% Burn and @HealingReductionPct@% Wound enemies for @Duration@ seconds. Burn : Deals a percent of the target's max Health as true damage every second Wound : Reduces healing received",
+    "components": [
+      "TFT_Item_RecurveBow",
+      "TFT_Item_RecurveBow"
+    ],
+    "icon": "/assets/tft/items/tft-item-rapidfirecannon.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.tex"
+  },
+  {
+    "id": "TFT_Item_SpearOfShojin",
+    "name": "Spear of Shojin",
+    "description": "Attacks grant @FlatManaRestore@ bonus Mana.",
+    "components": [
+      "TFT_Item_BFSword",
+      "TFT_Item_TearOfTheGoddess"
+    ],
+    "icon": "/assets/tft/items/tft-item-spearofshojin.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.tex"
+  },
+  {
+    "id": "TFT_Item_Redemption",
+    "name": "Spirit Visage",
+    "description": "Regenerate @MissingHealthHeal*100@% of missing Health each second.",
+    "components": [
+      "TFT_Item_TearOfTheGoddess",
+      "TFT_Item_GiantsBelt"
+    ],
+    "icon": "/assets/tft/items/tft-item-redemption.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.tex"
+  },
+  {
+    "id": "TFT_Item_NightHarvester",
+    "name": "Steadfast Heart",
+    "description": "Gain @BaseDurability*100@% Durability. While above @ThresholdForEmpower*100@% Health, instead gain @EmpoweredDurability*100@% Durability. @TFTUnitProperty.:TFT_Augment_WarmogsBuckle_TRAKey@",
+    "components": [
+      "TFT_Item_ChainVest",
+      "TFT_Item_SparringGloves"
+    ],
+    "icon": "/assets/tft/items/tft-item-nightharvester.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.tex"
+  },
+  {
+    "id": "TFT_Item_SteraksGage",
+    "name": "Sterak's Gage",
+    "description": "At @HealthThreshold@% Health, gain a Shield equal to @PercentHealthShield*100@% of the wearer's maximum Health that rapidly decays over @ShieldDuration@ seconds.",
+    "components": [
+      "TFT_Item_BFSword",
+      "TFT_Item_GiantsBelt"
+    ],
+    "icon": "/assets/tft/items/tft-item-steraksgage.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_steraksgage.tex"
+  },
+  {
+    "id": "TFT_Item_PowerGauntlet",
+    "name": "Striker's Flail",
+    "description": "Critical Strikes grant @BuffDamageAmp*100@% Damage Amp for @Duration@ seconds, stacking up to @MaxStacks@ times.",
+    "components": [
+      "TFT_Item_GiantsBelt",
+      "TFT_Item_SparringGloves"
+    ],
+    "icon": "/assets/tft/items/tft-item-powergauntlet.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.tex"
+  },
+  {
+    "id": "TFT_Item_RedBuff",
+    "name": "Sunfire Cape",
+    "description": "Gain @BonusPercentHP*100@% max Health. Every @ICD@ seconds, deal @BurnPercent@% Burn and @GrievousWoundsPercent@% Wound to an enemy within @HexRange@ hexes for @BurnDuration@ seconds. Burn : Deals a percent of the target's max Health as true damage every second Wound : Reduces healing received",
+    "components": [
+      "TFT_Item_ChainVest",
+      "TFT_Item_GiantsBelt"
+    ],
+    "icon": "/assets/tft/items/tft-item-redbuff.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_redbuff.tex"
+  },
+  {
+    "id": "TFT_Item_ThiefsGloves",
+    "name": "Thief's Gloves",
+    "description": "Each round: Equip 2 random items. [Consumes 3 item slots.] @TFTUnitProperty.:TFT_BindOnEquipTRA@",
+    "components": [
+      "TFT_Item_SparringGloves",
+      "TFT_Item_SparringGloves"
+    ],
+    "icon": "/assets/tft/items/tft-item-thiefsgloves.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_thiefsgloves.tex"
+  },
+  {
+    "id": "TFT_Item_TitansResolve",
+    "name": "Titan's Resolve",
+    "description": "Gain @StackingAD*100@% Attack Damage and @StackingSP@% Ability Power when attacking or taking damage, stacking up to @StackCap@ times. At full stacks, gain @StackedAmp*100@% Damage Amp and gain immunity to crowd control.",
+    "components": [
+      "TFT_Item_ChainVest",
+      "TFT_Item_RecurveBow"
+    ],
+    "icon": "/assets/tft/items/tft-item-titansresolve.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.tex"
+  },
+  {
+    "id": "TFT_Item_StatikkShiv",
+    "name": "Void Staff",
+    "description": "Damage from attacks and Abilities @MRShred@% Shred the target for @MRShredDuration@ seconds. This effect does not stack. Shred : Reduce Magic Resist",
+    "components": [
+      "TFT_Item_RecurveBow",
+      "TFT_Item_TearOfTheGoddess"
+    ],
+    "icon": "/assets/tft/items/tft-item-statikkshiv.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_voidstaff.tex"
+  },
+  {
+    "id": "TFT_Item_WarmogsArmor",
+    "name": "Warmog's Armor",
+    "description": "Gain @BonusPercentHP*100@% max Health.",
+    "components": [
+      "TFT_Item_GiantsBelt",
+      "TFT_Item_GiantsBelt"
+    ],
+    "icon": "/assets/tft/items/tft-item-warmogsarmor.png",
+    "sourceAsset": "assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.tex"
+  }
+]
