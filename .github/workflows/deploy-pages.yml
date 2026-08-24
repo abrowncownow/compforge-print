@@ -31,7 +31,9 @@ jobs:
       - run: pnpm run lint
       - run: pnpm run build
       - uses: actions/configure-pages@v5
+        if: vars.RIOT_PRODUCT_REGISTERED == 'true' && vars.PRINT_QA_APPROVED == 'true'
       - uses: actions/upload-pages-artifact@v4
+        if: vars.RIOT_PRODUCT_REGISTERED == 'true' && vars.PRINT_QA_APPROVED == 'true'
         with:
           path: dist
   deploy:
